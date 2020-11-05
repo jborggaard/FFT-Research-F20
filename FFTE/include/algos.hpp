@@ -5,6 +5,10 @@
  * This file is part of FFTE (Fast Fourier Transform Engine)
  */
 
+#ifndef uint
+#define uint unsigned int
+#endif
+
 #include <cstdint>
 #include <cmath>
 #include "complex.hpp"

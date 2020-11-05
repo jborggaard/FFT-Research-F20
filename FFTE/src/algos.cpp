@@ -4,6 +4,10 @@
  * This file is part of FFTE (Fast Fourier Transform Engine)
  */
 
+#ifndef uint
+#define uint unsigned int
+#endif
+
 // The following two parts here are sourced from the following link:
 // https://graphics.stanford.edu/~seander/bithacks.html#BitReverseObvious
 static constexpr uint8_t BitReverseTable256[256] = 
